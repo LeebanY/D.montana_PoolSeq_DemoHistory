@@ -1,0 +1,4 @@
+#poolfstat command to get count info.
+sync_file <- popsync2pooldata(sync.file="reduced_coverage_montana_pops10_19.sync",PS,PN, min.rc=1,min.cov.per.pool =25, max.cov.per.pool = 50,min.maf=0,noindel=T,nthreads=1)
+
+#slots for refallele.readcount and snp.info were then joined together using rbind.
